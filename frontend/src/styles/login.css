@@ -1,0 +1,115 @@
+.login-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.login-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px 25px;
+    border-radius: 20px;
+    border: 5px solid #dcdcdc;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+}
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: #d3ac4d;
+    color: #080807;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.login-form button:hover {
+    opacity: 0.8;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.error {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.success {
+    color: #6bff6b;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+/* Cuando solo hay un enlace (centrado) */
+.links.single-link {
+    justify-content: center;
+}
+/* Título del paso de código */
+.otp-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+    text-align: center;
+}
+
+/* Estilos para los 6 cuadros de código OTP */
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.otp-input {
+    width: 50px;
+    height: 55px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: white;
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+    transition: 0.2s;
+    outline: none;
+}
+
+.otp-input:focus {
+    border-color: #d3ac4d;
+    box-shadow: 0 0 5px rgba(211, 172, 77, 0.5);
+}
+
+.otp-input:disabled {
+    background: #eee;
+    cursor: not-allowed;
+}
