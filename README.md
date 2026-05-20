@@ -45,4 +45,3 @@ Neodomus es una plataforma web integral para la gestión de servicios de domóti
 | **Correos**   | SMTP (Gmail u otro) para envío de códigos OTP y notificaciones a técnicos   |
 | **Autenticación** | JWT (access token), bcrypt para hashing de contraseñas                  |
 
-## 📁 Estructura del proyecto
